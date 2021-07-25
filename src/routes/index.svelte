@@ -2,8 +2,8 @@
     import {hello} from '@jarecsni/nodez';
     console.log(hello());
 
-    import {Dyna} from './lib/Dyna';
-    import type {Plugin} from './lib/plugins/Plugin';
+    import {Dyna} from '$lib/Dyna';
+    import type {Plugin} from '$lib/plugins/Plugin';
 
     const dyna = new Dyna();
     const m = dyna.loadPlugin('PluginOne').then(module => {
