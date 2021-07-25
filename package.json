@@ -27,6 +27,6 @@
   },
   "type": "module",
   "dependencies": {
-    "@jarecsni/nodez": "^0.0.3"
+    "@jarecsni/nodez": "file:/Users/janosjarecsni/dev/nodez/package"
   }
 }
